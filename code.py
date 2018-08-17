@@ -13,7 +13,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 from matplotlib import gridspec
 import os
-codes = pd.read_csv('small-caps/code_50')
+codes = pd.read_csv('index/code_50')
 example = str(codes['code'].get_values()[5])
 
 def price(FuncName,code,interval = '15',plot=False):
